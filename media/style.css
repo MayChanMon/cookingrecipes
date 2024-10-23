@@ -1,0 +1,152 @@
+
+	* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+	/*div{
+		border:5px solid blueviolet;
+	}*/
+
+	#div1
+	{
+		width:50vw;
+		height:20vh;
+		background: radial-gradient(blue,lightblue);
+		/*background: linear-gradient(45deg,blue,lightblue);*/
+		float: left;
+	}
+
+	#div2
+	{
+		width: 20vw;
+		height:20vh;
+		background: radial-gradient(pink,lightyellow);
+		float: left;
+	}
+
+	#div3
+	{
+		width:20vw;
+		height:20vh;
+		/*background:url(link);   background image
+		  backgroung-repeat: no-repeat;   use if don't want to see to pic if pic are small
+		  backgroung-size: 100% 100%*/
+		  background: radial-gradient(blue,lightyellow);
+		opacity:0.5;  /*largest value =1 and smallest value =0;*/
+		float:left;
+
+	}
+   #div4
+   {
+   	clear: left;
+   }
+
+   .row
+   {
+   	width: 100px;
+   	height: 100px;
+   	display: inline-block;
+   	overflow: auto;
+   }
+
+   #row3
+   {
+   	display: none;
+   }
+
+  /*psudo class element:hover*/
+
+  #row2:hover #row3
+  {
+  	display: block;
+  }
+
+  #row4
+  {
+  	border-top-right-radius:10%;
+  	border-top-left-radius:10%;
+  	border-bottom-right-radius:10%;
+  	border-bottom-left-radius:10%;
+  }
+
+/*creat new
+save.css file type
+link html and css*/
+
+/*exe5*/
+
+.parent
+p:first-letter
+{
+   font-size: 2em;
+   color: purple;
+}
+
+.parent
+p:nth-last-child(even)
+{
+	background: lightpink;
+}
+body
+{
+	height: 150vh;
+}
+/*position 4 things /(default)static,absolute,fixed,relative*/
+.parent
+{
+	border:2px solid black;
+}
+#position,#position2
+{
+	bordet: 1px solid green;
+	width:20vw;
+	height: 30vh;
+	top: 50%;
+	left: 70%;
+	
+}
+
+#position
+{
+	position: absolute;
+	background: red;
+}
+
+#position2
+{
+	position: fixed;
+	background: green;
+}
+
+.parent
+{
+	width: 50vw;
+	height: 30vh;
+	background: lightblue;
+
+}
+
+#child
+{
+	width: 25vw;
+	height: 15vh;
+	background:orange;
+}
+.parent3
+{
+	position: relative;
+}
+
+.icon,.name
+{
+	display: inline-block;
+}
+.name{
+	background: green;
+	text-align: center;
+	position: absolute;
+	margin-top: 0.5%;
+}
+
