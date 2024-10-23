@@ -1,0 +1,28 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.parent
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.resume1,.resume2,.resume3
+{
+	width: 45vw;
+	height: 30vh;
+	border: 1px solid black;
+
+	/*float: left;*/
+	/*margin: top/b right/left;*/
+	/*margin:2% 5%;*/
+	margin: 2% 0;
+}
+.resume2
+{
+	height: 50vh;
+}
